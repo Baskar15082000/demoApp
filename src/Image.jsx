@@ -3,7 +3,7 @@ import React from "react";
 const Image = ({ imgLink }) => {
   return (
     <div className="imgs">
-      <img className="imageSize" src={imgLink} alt="" />
+      <img style={{width:"7rem"}} src={imgLink} alt="" />
     </div>
   );
 };
