@@ -34,31 +34,15 @@ const Swip = () => {
       }}
     >
       <Carousel afterChange={onChange}>
-        <div>
-          <div className="contentStyle">
-            <Image imgLink={arr[0]} />
-          </div>
-        </div>
-        <div>
-          <div className="contentStyle">
-            <Image imgLink={arr[1]} />
-          </div>
-        </div>
-        <div>
-          <div className="contentStyle">
-            <Image imgLink={arr[2]} />
-          </div>
-        </div>
-        <div>
-          <div className="contentStyle">
-            <Image imgLink={arr[3]} />
-          </div>
-        </div>
-        <div>
-          <div className="contentStyle">
-            <Image imgLink={arr[4]} />
-          </div>
-        </div>
+        {arr.map((e, index) => {
+          return (
+            <div>
+              <div className="contentStyle">
+                <Image imgLink={arr[index]} />
+              </div>
+            </div>
+          );
+        })}
       </Carousel>
     </div>
   );
