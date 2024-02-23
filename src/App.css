@@ -38,6 +38,7 @@
   }
 
   .imageSize {
+    box-shadow: 2px 2px 2px rgb(207, 202, 202);
     width: 18rem;
     height: 30rem;
     margin-bottom: 4rem;
