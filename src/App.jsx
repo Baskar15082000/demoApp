@@ -3,7 +3,7 @@ import Swip from "./Swip"
 import ShareModal from "./ShareModal";
 
 function App() {
-
+  document.body.style.overflow="hidden";
 
   return (
     <div className="background">
