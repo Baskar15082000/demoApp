@@ -5,6 +5,7 @@
   
   margin: 0%;
   overflow: hidden;
+
 }
 .custom-modal .ant-modal-content {
   background-color:#333;
@@ -80,7 +81,7 @@ p{
 
 @media only screen and (min-width: 325px) and (max-width: 720px) {
   .background {
-    height: 100vh;
+    overflow: hidden;
   }
   .backgroundImage {
     width: 100%;
