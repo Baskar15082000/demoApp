@@ -4,7 +4,7 @@
   padding: 0%;
   height: 100vh;
   margin: 0%;
-  overscroll-behavior-block:auto;
+  overscroll-behavior-block:none;
   overflow-y: hidden;
 }
 .custom-modal .ant-modal-content {
