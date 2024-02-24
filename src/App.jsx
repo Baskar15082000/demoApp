@@ -5,7 +5,7 @@ import ShareModal from "./ShareModal";
 function App() {
   return (
     <div className="background">
-      <div>
+      <div style={{overflow:"hidden"}}>
         <img
           className="backgroundImage"
           src="\pngtree-christmas-star-spot-red-background-image_512206.jpg"
