@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 12rem;
+
   padding: 0%;
   
 }
@@ -32,7 +32,7 @@
 
 .contentStyle {
   margin: 0;
-  height: 80vh;
+
   color: #fff;
   
   background: transparent;
@@ -56,12 +56,12 @@ p{
 }
 .backgroundImage {
   object-fit: cover;
+  overflow: hidden;
   width: 100%;
   position: relative;
 }
 .imageSize {
-  width: 35rem;
-  height: 28rem;
+  
   border-radius: 10px;
   margin-top: 3rem;
   margin-bottom: 4rem;
@@ -70,7 +70,7 @@ p{
 
 .contentStyle {
   margin: 0;
-  height: "80vh";
+  
   color: "#fff";
 
   text-align: "center";
@@ -86,14 +86,14 @@ p{
   .backgroundImage {
     
     display: flex;
-    height: 98vh;
+    height: 100vh;
     overflow-y: hidden;
   }
 
   .imageSize {
     
-    width: 20rem;
-    height: 23rem;
+    
+  
     margin-left: 0rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
@@ -103,7 +103,7 @@ p{
   }
   .contentStyle {
     margin: 0;
-    height: "80vh";
+    
     color: "#fff";
     text-align: "center";
     background: "transparent";
