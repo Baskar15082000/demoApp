@@ -41,7 +41,8 @@
 }
 
 .zoomable-image {
-  transition: transform 0.3s; 
+  transition: transform 0.5s;
+
 }
 
 .zoomable-image:hover {
@@ -95,6 +96,7 @@ p{
     margin-bottom: 5rem;
     margin-top: 8rem;
     border-radius: 10px;
+    
   
   }
   .contentStyle {
@@ -108,5 +110,40 @@ p{
     flex-direction: column;
     
     
+    
   }
+  
+  .imgbig{
+    padding:"4rem 1rem 0 2rem ";
+    font-size:1.35rem;
+    margin-top: 3rem;
+    transition: .2s;
+    
+  }
+  .imgsmall{
+    padding:"4rem 1rem 0 2rem ";
+    font-size: 1.3rem;
+    transition: .25s;
+    margin-top: 3rem;
+    transition: .2s;
+  }
+  
+  .bigp{
+    margin-top:1.5rem ;
+    font-size:1.1rem;
+    padding:1rem 2rem 1rem 1.5rem;
+    background-color:#ec4747;
+    border-bottom-right-radius:50px;
+    transition: .2s;
+    
+  }
+  .smallp{
+    margin-top:1.5rem ;
+    font-size:1.1rem;
+    padding:1rem 2rem 1rem 1.5rem;
+    background-color:#ec4747;
+    border-bottom-right-radius:50px;
+    transition: .2s;
+  }
+  
 }
