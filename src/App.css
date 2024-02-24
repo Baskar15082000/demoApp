@@ -86,7 +86,7 @@ p{
   .backgroundImage {
     
     display: flex;
-    
+    height: 90vh;
     overflow-y: hidden;
   }
 
