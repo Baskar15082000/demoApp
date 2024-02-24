@@ -24,7 +24,7 @@ const ShareModal = () => {
         footer={null}
         closeIcon={null}
         onCancel={handleCancel}
-        style={{marginTop:"115%"}}
+        style={{marginTop:"100%"}}
         className="custom-modal" 
       >
         <div className="modal-content">
